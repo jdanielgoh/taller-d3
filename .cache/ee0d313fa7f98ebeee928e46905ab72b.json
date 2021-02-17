@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (callback, that) {\n  let index = -1;\n  for (const node of this) {\n    callback.call(that, node, ++index, this);\n  }\n  return this;\n};"},"hash":"7285f03ea77c339b666a50a42a38705b"}

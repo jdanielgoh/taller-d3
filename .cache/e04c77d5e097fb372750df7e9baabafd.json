@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (x, y) {\n  return [(y = +y) * Math.cos(x -= Math.PI / 2), y * Math.sin(x)];\n};"},"hash":"f75f778c44c31fce19defaaa55cfae5e"}

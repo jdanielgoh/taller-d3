@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = union;\nfunction union(...others) {\n  const set = new Set();\n  for (const other of others) {\n    for (const o of other) {\n      set.add(o);\n    }\n  }\n  return set;\n}"},"hash":"1908eea8662c15cd3918ce7ffd2009cc"}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (a, b) {\n  var d = new Date();\n  return a = +a, b = +b, function (t) {\n    return d.setTime(a * (1 - t) + b * t), d;\n  };\n};"},"hash":"0313f7a52d9ee41099e3a2b170cd9caf"}

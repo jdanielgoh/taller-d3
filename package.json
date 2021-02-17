@@ -1,0 +1,27 @@
+{
+  "name": "taller-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1",
+    "parcel-plugin-static-files-copy": "^2.5.1"
+  },
+  "staticFiles": {
+    "staticPath": [
+      "data/hopkinsDefunciones_paravis.csv",
+      "data/BaseEstadosPositivosyDefunciones.csv",
+      "data/hopkinsDefunciones_paravis2.csv"
+    ]
+  }
+}

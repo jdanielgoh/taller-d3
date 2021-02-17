@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.defaultY = defaultY;\n\nexports.default = function (_) {\n  return arguments.length ? (this._y = _, this) : this._y;\n};\n\nfunction defaultY(d) {\n  return d[1];\n}"},"hash":"8707c5d81e28b92e9c2da2e3d061b5c1"}

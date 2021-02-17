@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function () {\n  var size = 0;\n  this.visit(function (node) {\n    if (!node.length) do ++size; while (node = node.next);\n  });\n  return size;\n};"},"hash":"77f1ef804f6a6d85bf3f2336b7a0e27d"}

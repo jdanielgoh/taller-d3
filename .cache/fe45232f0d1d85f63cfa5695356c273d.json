@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"d3-interpolate","loc":{"line":1,"column":34}}],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _d3Interpolate = require(\"d3-interpolate\");\n\nexports.default = scheme => (0, _d3Interpolate.interpolateRgbBasis)(scheme[scheme.length - 1]);"},"hash":"c2fb695f6f87351f8c01aef160bef754"}

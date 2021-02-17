@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = merge;\nfunction* flatten(arrays) {\n  for (const array of arrays) {\n    yield* array;\n  }\n}\n\nfunction merge(arrays) {\n  return Array.from(flatten(arrays));\n}"},"hash":"fa19fa536f1c7461fa09d556e6146ea4"}

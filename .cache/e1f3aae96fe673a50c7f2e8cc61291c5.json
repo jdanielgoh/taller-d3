@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (range) {\n  var n = range.length;\n  return function (t) {\n    return range[Math.max(0, Math.min(n - 1, Math.floor(t * n)))];\n  };\n};"},"hash":"740244cbfdbac9e8b4dbba882c2da4e4"}

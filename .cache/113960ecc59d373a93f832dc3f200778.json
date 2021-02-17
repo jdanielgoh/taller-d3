@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.tpmt = tpmt;\n// tpmt is two power minus ten times t scaled to [0,1]\nfunction tpmt(x) {\n  return (Math.pow(2, -10 * x) - 0.0009765625) * 1.0009775171065494;\n}"},"hash":"130ea5c4e5e0c399acdf5029fc49f210"}

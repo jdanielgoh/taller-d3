@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (selector) {\n  return selector == null ? none : function () {\n    return this.querySelector(selector);\n  };\n};\n\nfunction none() {}"},"hash":"80a3f4e9520c3f4c617da258bde26448"}

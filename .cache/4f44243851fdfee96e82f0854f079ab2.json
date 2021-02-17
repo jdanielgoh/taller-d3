@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (x) {\n  return typeof x === \"object\" && \"length\" in x ? x // Array, TypedArray, NodeList, array-like\n  : Array.from(x); // Map, Set, iterable, string, or anything else\n};"},"hash":"7a9783b6bd6cccd0b21b7598610fe48d"}

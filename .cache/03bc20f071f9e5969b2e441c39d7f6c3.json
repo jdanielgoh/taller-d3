@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.constantZero = constantZero;\n\nexports.default = function (x) {\n  return function () {\n    return x;\n  };\n};\n\nfunction constantZero() {\n  return 0;\n}"},"hash":"2ecfc0ed88378cf9582c76fce8c67eef"}

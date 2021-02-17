@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (numerals) {\n  return function (value) {\n    return value.replace(/[0-9]/g, function (i) {\n      return numerals[+i];\n    });\n  };\n};"},"hash":"625392f85c8b5cb739de2079da9cffae"}

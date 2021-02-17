@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (compare) {\n  return this.eachBefore(function (node) {\n    if (node.children) {\n      node.children.sort(compare);\n    }\n  });\n};"},"hash":"7b41d459e7cd75e0505659037c4cf440"}

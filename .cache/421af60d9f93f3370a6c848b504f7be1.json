@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconst linear = exports.linear = t => +t;"},"hash":"062e15566cbc3520244a80f6fb1b56a8"}

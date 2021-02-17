@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nexports.default = function (interpolator, n) {\n  var samples = new Array(n);\n  for (var i = 0; i < n; ++i) samples[i] = interpolator(i / (n - 1));\n  return samples;\n};"},"hash":"7bd4690faf43b1171e1a43ac9653d3d2"}
