@@ -72,6 +72,8 @@ function scatterplot(){
 		var ejeY=svg.append("g")
 			.call(d3.axisLeft(escalaY).ticks(5))
 			.attr("class","ejey")
+		ejeX.selectAll("path").style("stroke-opacity","0")
+		ejeY.selectAll("path").style("stroke-opacity","0")
 
 window.onresize = reescalado;
 	 	function reescalado(){

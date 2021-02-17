@@ -1,0 +1,13 @@
+body{
+	    font-family: 'Montserrat', sans-serif;
+}
+
+body > a{
+	color:green;
+	display: block;
+}
+
+svg text{
+	font-family: 'Montserrat';
+
+}
