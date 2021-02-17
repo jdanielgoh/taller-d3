@@ -73,3 +73,13 @@ Mike Bostock, científico de la computación, es el principal creador de d3, tra
 
 **Referencias**
 [interpolaciones](https://bl.ocks.org/d3noob/ced1b9b18bd8192d2c898884033b5529)
+
+
+## Para instalar y correr estos ejemplos
+
+Haber instalado node y tener un editor de texto
+
+```bash
+npm install
+npm start
+```
