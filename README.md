@@ -62,6 +62,7 @@ Mike Bostock, científico de la computación, es el principal creador de d3, tra
 ### Fuerzas
 - Acomodos orgánicos mediante simulación
 - Grupos
+
 **Referencias**
 [1](https://medium.com/@sxywu/understanding-the-force-ef1237017d5)
 [2](https://www.d3indepth.com/force-layout/)
