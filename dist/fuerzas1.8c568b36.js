@@ -31114,6 +31114,7 @@ function fuerzas1() {
       nodePadding = 2.;
   d3.csv("../../hopkinsDefunciones_paravis.csv").then(function (ladata) {
     //Preparamos los datos
+    console.log(ladata);
     var paises = ladata.columns.slice(2);
     var data = [];
 
@@ -31160,8 +31161,7 @@ function fuerzas1() {
         return d.y;
       });
     }
-    /*
-    var burbujas2=svg.selectAll(".gupos")
+    /*var burbujas2=svg.selectAll(".gupos")
     	.data(data)
     	.enter()
     	.append("g")
@@ -31181,7 +31181,7 @@ function fuerzas1() {
 
 
     function ticked2() {
-      burbuja2.attr("transform", function (d) {
+      burbujas2.attr("transform", function (d) {
         return "translate(".concat(d.x, ",").concat(d.y, ")");
       });
     }
@@ -31215,7 +31215,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42197" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39705" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

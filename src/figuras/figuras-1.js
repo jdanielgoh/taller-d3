@@ -23,6 +23,7 @@ function visualizacionPaths(){
 	var monthNames = ["enero", "febrero", "marzo", "abril", "mayo", "junio","julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 	d3.csv("../../hopkinsDefunciones_paravis2.csv").then(function(data){
 		//Preparación de bases de datos
+		console.log(data)
 		let paises=data.columns.slice(2);
 
 		data.forEach(function(d){
@@ -31,10 +32,12 @@ function visualizacionPaths(){
 				d[paises[i]]=+d[paises[i]]
 			}
 		})
+		//Esta nueva columna se usa para saber el rango de la escala y
 		data.forEach(function(d){
 
 			d.totoD=d3.sum(Object.values(d).slice(2,-1).map(function(dd){return dd}))
 		})
+		console.log(data)
 		//Creo diccionario de colores aleatorios
 		var dict_cats={};
 		for(var i= 0 ; i<paises.length;i++){
@@ -70,10 +73,14 @@ function visualizacionPaths(){
 		    .domain(keys)
 		    .range(Object.values(dict_cats));
 
-		  //Apilando la data
+///https://observablehq.com/@d3/streamgraph-transitions
+
+		 //Apilando la data
 		var stackedData = d3.stack()
 		    .offset(d3.stackOffsetNone)
 		    .keys(keys)(data)
+
+		console.log(stackedData)
 
 
 	    

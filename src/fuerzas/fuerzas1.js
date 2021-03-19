@@ -18,6 +18,7 @@ function fuerzas1(){
 
 	d3.csv("../../hopkinsDefunciones_paravis.csv").then(function(ladata){
 		//Preparamos los datos
+		console.log(ladata)
 		let paises=ladata.columns.slice(2);
 		let data=[];
 		for(var i =0;i<paises.length;i++){
@@ -80,8 +81,8 @@ function fuerzas1(){
 				.attr("cy",d=>d.y)
 
 		}
-		/*
-		var burbujas2=svg.selectAll(".gupos")
+		
+		/*var burbujas2=svg.selectAll(".gupos")
 			.data(data)
 			.enter()
 			.append("g")
@@ -98,8 +99,9 @@ function fuerzas1(){
 			.style("font-weight","600")
 			.style("fill","gray")
 		*/
+		
 		function ticked2() {
-			burbuja2.attr("transform",d=>`translate(${d.x},${d.y})`)
+			burbujas2.attr("transform",d=>`translate(${d.x},${d.y})`)
 
 
 		}

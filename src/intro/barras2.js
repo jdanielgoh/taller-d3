@@ -93,7 +93,7 @@ function barras2(){
 		
 		/// Explorando transiciones y eventos:
 		svg.on("click",function(event,dd){
-			//barras.transition().duration(1000).style("fill","#c48600")
+			barras.transition().duration(1000).style("fill","#c48600")
 			//barras.transition().delay((d,i)=>10*i).duration(10).style("fill","#c48600")
 			
 
@@ -113,8 +113,8 @@ function barras2(){
 						.y(function(dd){return escalaY(+dd.Defunciones)})
 						(d)
 				})
-			
 			*/
+			
 
 
 		})

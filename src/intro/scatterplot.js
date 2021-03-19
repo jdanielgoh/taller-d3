@@ -6,7 +6,7 @@ function scatterplot(){
 
 	//Tomo el ancho del contenedor y el alto al 50%
 	var margin={top:40,bottom:30,left:70,right:30}
-	var ancho=parseInt(document.getElementById("scatterplot").clientWidth)-margin.left-margin.right
+	var ancho=document.getElementById("scatterplot").clientWidth-margin.left-margin.right
 	var alto=ancho*.9-margin.top-margin.bottom;
 	//Creamos el SVG
 	var svg1=d3.select("#scatterplot")
@@ -75,7 +75,7 @@ function scatterplot(){
 		ejeX.selectAll("path").style("stroke-opacity","0")
 		ejeY.selectAll("path").style("stroke-opacity","0")
 
-window.onresize = reescalado;
+		window.onresize = reescalado;
 	 	function reescalado(){
 
 	 		ancho=parseInt(document.getElementById("scatterplot").clientWidth)-margin.left-margin.right

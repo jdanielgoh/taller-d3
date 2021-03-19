@@ -120,9 +120,9 @@ function visualizacionPaths(){
 		    .style("fill-opacity",".9")
 		    .style("fill", function(d) {return dict_cats[d.key]; })
 		    .attr("d", area)
+
 		    .on("mouseover",function(event,d){
 		    	console.log(d.key)
-		    	
 		    	svg.selectAll("path.myArea")
 		    		.style("fill-opacity",".1")
 
